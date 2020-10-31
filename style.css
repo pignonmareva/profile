@@ -1,0 +1,169 @@
+/* Colors and fonts */
+
+
+body {
+	background-image:url(images/background1.jpg), url(images/backgrounda.jpg);
+	background-position: top, bottom;
+	background-repeat: no-repeat, no-repeat;
+	color: #373a40;
+	background-color: white;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 13px;
+}
+h1 {
+	color: #ee6f57;
+	padding: 20px;
+    font-family: 'Syne Mono', monospace;
+    font-weight: 2000;
+    font-size: 40px;
+}
+h2 { 
+	color : white;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	letter-spacing: 5px ;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #686d76;
+	font-weight: bold;
+	transition: color 1s ease;
+}
+a:hover {
+	color: #ee6f57;
+}
+
+/* Custom design with class */
+
+.container { 
+	width:700px;
+	margin: 50px auto;
+ }
+
+ @media (max-width: 960px) {
+ 	.container {
+ 		width: 700px;
+ 	}
+ }
+
+ @media (max-width: 720px) {
+ 	.container {
+ 		width: 500px;
+ 	}
+ }
+
+  @media (max-width: 540px) {
+ 	.container {
+ 		width: 300px;
+ 	}
+ }
+
+
+.card-white {
+	background-color: white;
+	padding: 20px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1); 
+	border-radius: 4px;
+	margin: 30px 30px;
+	text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.img-bordered {
+	border: 2px solid #ee6f57;
+}
+
+.btn-blue {
+	background-color: #686d76;
+	color: white;
+	border-radius: 5px;
+	padding: 20px 60px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	transition: background-color 1s ease;
+}
+
+@media (max-width: 960px) {
+ 	.btn-blue {
+ 		width: 700px;
+ 	}
+ }
+
+ @media (max-width: 720px) {
+ 	.btn-blue  {
+ 		width: 500px;
+ 	}
+ }
+
+  @media (max-width: 540px) {
+ 	.btn-blue  {
+ 		width: 50px;
+ 	}
+ }
+
+.btn-blue:hover {
+	background-color: #ee6f57;
+	color: white;
+}
+
+
+#follow {
+	color: #ee6f57;
+	text-align: center;
+
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 40px;
+	text-align: center;
+}
+
+.btn-grey {
+	background-color: #145374;
+	color: white;
+	padding: 10px 15px;
+	margin: 10px 230px;
+	border-radius: 4px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+}
+
+@media (max-width: 960px) {
+ 	.btn-grey {
+ 		width: 210px;
+ 	}
+ }
+
+ @media (max-width: 720px) {
+ 	.btn-grey {
+ 		width: 120px;
+ 	}
+ }
+
+  @media (max-width: 560px) {
+ 	.btn-grey {
+ 		width: 180px;
+ 	}
+ }
+
+
+#exp {
+	text-align: left;
+}
+
+
+
+
+
